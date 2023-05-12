@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* img,svg {
+    display: block;
+    width: 100%;
+} */
+:root {
+    --color-black: hsl(0, 0%, 0%);
+    --color-white: hsl(0, 0%, 100%);
+    --color-white--dark: hsl(0, 0%, 100%,.5);
+    --color-black-light: hsl(0, 0%, 0%, .5);
+    --background-purple-400: 256, 100%, 47%;
+    --background-purple-light: 256, 100%, 47%, .7;
+    --linear-gradient: linear-gradient(hsl(var(--background-purple-400)),hsl(var(--background-purple-light)));
+    --padding: 2rem;
+    --border-radius: 2rem;
+
+    /* Item component CSS */
+    --color-bg-opacity: 0.5;
+
+    --color-memory-base: 60, 59%, 48%;
+    --color-reaction-base: 0, 82%, 52%;
+    --color-verbal-base: 155, 78%, 38%;
+    --color-visual-base: 233, 66%, 42%;
+
+    --color-memory: hsl(var(--color-memory-base));
+    --color-reaction: hsl(var(--color-reaction-base));
+    --color-verbal: hsl(var(--color-verbal-base));
+    --color-visual: hsl(var(--color-visual-base));
+
+    --color-memory-bg: hsl(var(--color-memory-base), var(--color-bg-opacity));
+    --color-reaction-bg: hsl(var(--color-reaction-base), var(--color-bg-opacity));
+    --color-verbal-bg: hsl(var(--color-verbal-base), var(--color-bg-opacity));
+    --color-visual-bg: hsl(var(--color-visual-base), var(--color-bg-opacity));
+
+
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+
+}
+
