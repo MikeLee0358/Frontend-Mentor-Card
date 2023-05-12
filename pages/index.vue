@@ -23,7 +23,10 @@
 
 <script setup>
 const isShow = ref(false)
-setTimeout(() => isShow.value = true, 0)
+setTimeout(() => {
+    console.log('show page')
+    isShow.value = true
+}, 0)
 </script>
 
 <style lang="sass">
